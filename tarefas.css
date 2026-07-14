@@ -77,12 +77,10 @@ h1 i {
 @media (max-width: 600px) {
     #input-area {
         flex-direction: column;
+        align-items: center;
     }
 
     #task-input {
         width: 100%;
     }
-    button {
-    width: 100%;
-}
 }
