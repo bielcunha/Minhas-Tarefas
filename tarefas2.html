@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <script src="tarefas.js" defer></script>
+    <link rel="stylesheet" href="tarefas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+</head>
+<body>
+    <h1><i class='ti ti-checks'></i>Minhas Tarefas</h1>
+    <p>Projeto exemplo em HTML + CSS + JS</p>
+
+    <div> 
+        <span>Total: <strong id="total">0</strong></span>
+        <span>Pendentes: <strong id="pendentes">0</strong></span>
+        <span>Concluídas: <strong id="concluidas">0</strong></span>
+    </div>
+
+   <div id="input-area">
+    <input type="text" id="task-input" placeholder="Adicionar nova tarefa..."/>
+    <button onclick="addTask()">Aicionar</button>
+   </div>
+
+    <ul id="task-list"></ul>
+   </div>
+
+</body>
+</html>
