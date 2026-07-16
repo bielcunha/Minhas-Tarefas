@@ -11,18 +11,18 @@
     <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
 </head>
 <body>
-    <h1><i class='ti ti-checks'></i>Minhas Tarefas</h1>
-    <p>Projeto exemplo em HTML + CSS + JS</p>
+    <h1><i class='ti ti-checks'></i>My Tasks</h1>
+    <p>Write down your tasks</p>
 
     <div> 
         <span>Total: <strong id="total">0</strong></span>
-        <span>Pendentes: <strong id="pendentes">0</strong></span>
-        <span>Concluídas: <strong id="concluidas">0</strong></span>
+        <span>Pending: <strong id="pendentes">0</strong></span>
+        <span>Completed: <strong id="concluidas">0</strong></span>
     </div>
 
    <div id="input-area">
-    <input type="text" id="task-input" placeholder="Adicionar nova tarefa..."/>
-    <button onclick="addTask()">Aicionar</button>
+    <input type="text" id="task-input" placeholder="Add new task..."/>
+    <button onclick="addTask()">To add</button>
    </div>
 
     <ul id="task-list"></ul>
